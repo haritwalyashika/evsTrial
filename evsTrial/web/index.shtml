@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <!--#include virtual="header.shtml" -->
+    <body>
+        
+        <div>
+            <!--#include virtual="menu.shtml" -->
+            <p>We aim to solve the demerits of offline voting system by providing an online voting system which can overcome the barriers of the electoral voting system. Salient Features:<br/><!-- comment -->
+            <ul>
+                <li>Platform agnostic. Can be operated from Desktop, laptop, mobile as well as any browser on any operating system.</li>
+                <li>Protection from voting multiple times.</li><!-- comment -->
+                <li>Audit trail to log activities carried out by Voter as well as candidate</li>
+            </ul>
+</p>
+<p>
+    <img src="Images/chronology.jpg" alt="Chronology of events"/>
+</p>
+<p>Steps to perform if you are Voter:<br/>
+<ol>
+    <li>Register yourself as voter, if not registered so far.</li><!-- comment -->
+    <li>Login as voter</li><!-- comment -->
+    <li>Select the election for which you want to vote</li><!-- comment -->
+    <li>Cast your vote</li><!-- comment -->
+    <li>Check Election Result</li>
+</ol>
+
+<p>Steps to perform if you are Candidate:<br/>
+<ol>
+    <li>Register yourself as Candidate, if not registered so far.</li><!-- comment -->
+    <li>Login as Candidate</li><!-- comment -->
+    <li>Update your profile including past performances and Manifesto</li><!-- comment -->
+    <li>Check Election Result</li>
+</ol>
+</p>
+        </div>
+    <!--#include virtual="footer.shtml" -->
+    </body>
+    
+</html>

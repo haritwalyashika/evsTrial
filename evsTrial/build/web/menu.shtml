@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<div align="right">
+<table id="HorizontalMenu" border="1">
+    <tr><td id="mnHome"><a href="index.shtml">Home</a></td><!-- comment -->
+        <td><a href="login.shtml">Login</a></td><!-- comment -->
+        <td><a href="registervoter.shtml">Register as Voter</a></td><!-- comment -->
+        <td><a href="registercandidate.shtml">Register as Candidate</a></td><!-- comment -->
+        <td><a href="castvote.jsp">Cast your precious vote</a></td><!-- comment -->
+        <td id="mnElectionResults"><a href="viewResult.jsp">View Election Results</a></td><!-- comment -->
+        <td><a href="logout.jsp">Logout</a></td><!-- comment -->
+    </tr><!-- comment -->
+</table>
+</div>
+<h1 align="center">Welcome to Fr.CRCE eVoting System</h1>
