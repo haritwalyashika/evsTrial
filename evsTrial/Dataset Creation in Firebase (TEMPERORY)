@@ -1,0 +1,36 @@
+import firebase_admin
+from firebase_admin import credentials
+from firebase_admin import db
+
+cred = credentials.Certificate("serviceAccountKey.json")
+firebase_admin.initialize_app(cred, {
+    'databaseURL': "https://online-voting-system-with-frs-default-rtdb.firebaseio.com/"
+})
+
+ref = db.reference('Students')
+
+data = {
+    "9569":
+        {
+            "name": "Winster Pereira",
+            "major": "COMPS",
+            "starting_year": 2021,
+            "vote_count": 0,
+            "class": "A",
+            "year": "SE",
+            "voting_time": "0000-00-00 00:00:00"
+        },
+    "963852":
+        {
+            "name": "Elon Musk",
+            "major": "MECH",
+            "starting_year": 2020,
+            "vote_count": 0,
+            "Class": "B",
+            "year": "TE",
+            "voting_time": "0000-00-00 00:00:00"
+        }
+}
+
+for key, value in data.items():
+    ref.child(key).set(value)
