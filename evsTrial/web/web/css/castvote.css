@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.background{
+    background: rgba(0, 0, 25, 0.7)url(../img/image1.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+    background-attachment: fixed;
+}
+.firstsection{
+    height: 100vh;
+}
+.heading{
+    font-size: 35px;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    background:rgba(30, 194, 205, 0.2);
+    align-items: center;
+}
+.candidatedata{
+    height: 85%;
+    background:rgba(224, 224, 180, 0.586);
+    margin: 10px 0 0 0;
+}
+.candidate{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border: 5px solid white;
+}
+.candidateimg{
+    /* display: flex; */
+    /* justify-content: center; */
+
+}
